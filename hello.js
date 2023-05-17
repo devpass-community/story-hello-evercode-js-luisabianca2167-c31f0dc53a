@@ -1,7 +1,5 @@
 function hello(str) {
-    return (
-        <p>Hello, {str}!</p>
-    )
+    return `Hello, ${str}!` 
 };
 
 module.exports = hello;
